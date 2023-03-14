@@ -65,4 +65,34 @@ body {
     height: 18px;
 }
 
-  
+.titleContacts{
+    margin-top: 40px;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(255 183 28);
+}
+
+.box{
+    margin-top: 10px;
+    /* background-color: red; */
+    display: flex;
+}
+.box_yellow{
+    background-color:rgb(255 183 28);
+    width: 40px;
+    height: 25px;
+    padding: 3px;
+}
+.box_contact{
+    background-color: rgb(200, 200, 200);
+    width: 175px;
+    display: flex;
+    padding: 3px;
+    font-weight: bold;
+}
+.reference {
+    /* background-color: rgb(200, 200, 200); */
+    width: 160px;
+    display: flex;
+    padding: 3px;
+    margin-left: 40px;
+}
