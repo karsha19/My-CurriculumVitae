@@ -25,12 +25,12 @@ body {
 }
 .container .left_Side {
     position: relative;
-    background:rgb(220, 220, 220);
+    background:rgb(176, 176, 176);
     padding: 40px;
 }
 .container .right_Side {
     position: relative;
-    background: rgb(241, 241, 241);
+    background: rgb(245, 245, 245);
     padding: 40px;
 }
 .profileText .imgBox {
@@ -152,6 +152,6 @@ body {
 @media (max-width:1000px) {
    .container {
     margin: 10px;
-    grid-template-columns:repeat() ;
+    grid-template-columns:repeat(1,1fr) ;
    }
 }
