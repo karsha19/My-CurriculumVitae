@@ -155,3 +155,53 @@ body {
     grid-template-columns:repeat(1,1fr) ;
    }
 }
+@media only screen and (max-width: 600px) {
+    .introduction {
+        width: 350px;
+    }
+    .container {
+        background: rgb(255, 255, 255);
+        box-shadow: none;
+        margin: 0px;
+        margin-right: 70px;
+    }
+    .container .right_Side {
+        background: rgb(255, 255, 255);
+    }
+    .container .left_Side {
+        padding: 55px;
+        width: 420px;
+        background: rgb(200, 200, 200);
+    }
+    .box_Title {
+        width: 370px;
+    }
+    .about .box_Data {
+        flex-direction: column;
+    }
+    .about .box_Data .text p {
+        width: 200px;
+    }
+    .about .box_Data .data {
+        margin-bottom: 10px;
+    }
+    .about .box_Data .text h3 {
+        margin-bottom: 10px;
+    }
+    .about2 .box_Data {
+        flex-direction: column;
+    }
+    .about2 .box_Data .text {
+        margin-top: 10px;
+    }
+    .about2 .box_Data .text h4 {
+        margin-top: 10px;
+    }
+    .box_about .box_TrattamentoDati .trattamento_Dati {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .box_about {
+        width: 350px;
+    }
+}
