@@ -16,7 +16,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1000px;
+    min-height: 1200px;
     background: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -25,7 +25,7 @@ body {
 }
 .container .left_Side {
     position: relative;
-    background:rgb(176, 176, 176);
+    background:rgb(228, 228, 228);
     padding: 40px;
 }
 .container .right_Side {
@@ -39,7 +39,7 @@ body {
     height: 200px;
     border-radius: 20px;
     overflow: hidden;
-    background-image: url('./img/foto.jpg');
+    background-image: url('./img/photo.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -111,7 +111,7 @@ body {
     font-size: 18px;
 }
 .box_about{
-    height: 500px;
+    height: 400px;
     width: 650px;
     padding: 20px;
 }
@@ -149,13 +149,13 @@ body {
     margin-top: 21px;
 }
 
-@media (max-width:1000px) {
+@media (max-width:700px) {
    .container {
     margin: 10px;
     grid-template-columns:repeat(1,1fr) ;
    }
 }
-@media only screen and (max-width: 600px) {
+@media  (max-width: 600px) {
     .introduction {
         width: 350px;
     }
