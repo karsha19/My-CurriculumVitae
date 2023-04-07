@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: rgb(131, 131, 131);
 }
 body {
     background-color: rgb(255, 255, 255);
@@ -16,28 +17,27 @@ body {
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1200px;
+    min-height: 1370px;
     background: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     margin: 50px;
 }
 .container .left_Side {
     position: relative;
-    background:rgb(228, 228, 228);
-    padding: 40px;
+    background:rgb(255, 247, 233);
+    padding: 20px;
 }
 .container .right_Side {
     position: relative;
-    background: rgb(245, 245, 245);
+    background: rgb(255, 250, 250);
     padding: 40px;
 }
 .profileText .imgBox {
     position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 200px;
     overflow: hidden;
     background-image: url('./img/photo.jpg');
     background-position: center;
@@ -46,42 +46,61 @@ body {
 .titleSkills{
     margin-top: 80px;
     font-size: 30px;
-    border-bottom: 2px solid rgb(255 183 28);
+    border-bottom: 2px solid rgb(255, 198, 76);
+    color: rgb(255, 198, 76);
 }
 .box_skills {
-    margin-top: 15px;
-    width: 200px;
+    margin-top: 40px;
+    width: 250px;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
 }
 .box_skills span{
     height: 22px;
+    color: rgb(131, 131, 131);
 }
 .titleContacts {
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 30px;
-    border-bottom: 2px solid rgb(255 183 28);
+    border-bottom: 2px solid rgb(255, 198, 76);
+    color: rgb(255, 198, 76);
 }
 .box {
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
 }
-.box_yellow{
-    background-color:rgb(255 183 28);
-    width: 40px;
-    height: 25px;
+.box_icon_Github, .box_icon_phone, .box_icon_mail, .box_icon_Linkedin, .box_icon_Home{
+    width: 20px;
+    height: 20px;
     padding: 3px;
+    background-position: center;
+    background-size: cover;
+}
+.box_icon_Home{
+    background-image: url('./img/icons8-casa-96.png');
+}
+.box_icon_mail{
+    background-image: url('./img/icons8-messaggio-100.png');
+}
+.box_icon_phone{
+    background-image: url('./img/phone.png');
+}
+.box_icon_Linkedin{
+    background-image: url('./img/linkedin.png');
+}
+.box_icon_Github{
+    background-image: url('./img/github.png');
 }
 .box_contact{
-    background-color: rgb(200, 200, 200);
+    margin-left: 14px;
     width: 175px;
     display: flex;
-    padding: 3px;
     font-weight: bold;
+    align-items: center;
+    color: rgb(131, 131, 131);
 }
 .reference {
     width: 160px;
@@ -91,24 +110,30 @@ body {
 }
 .box_Title{
     width: 650px;
-    height: 200px;
-    background-color: rgb(255 183 28);
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    border-radius: 20px;
     gap: 10px;
 }
 .name {
     font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 198, 76);
 }
 .job {
-    font-size: 25px;
+    color: rgb(173, 173, 173);
+    font-weight: bold;
+    font-size: 27.5px;
 }
 .introduction{
     margin-top: 20px;
     padding: 20px;
-    font-size: 18px;
+    font-size: 22px;
+    display: flex;
+    text-align:justify;
 }
 .box_about{
     height: 400px;
@@ -116,40 +141,56 @@ body {
     padding: 20px;
 }
 .title1 {
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(255 183 28);
+    color: rgb(255, 198, 76);
+    font-size: 25px;
 }
 .about .box_Data {
     display: flex;
     flex-direction: row;
     margin: 25px 0;
+    text-align:justify;
 }
 .about .box_Data .data {
-    min-width: 150px
+    min-width: 150px;
+    font-size: 18px;
 }
 .about .box_Data .data h4 {
     text-transform: uppercase;
     font-weight: 600;
+    text-align:justify;
 }
 .about .box_Data .text h3 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
+}
+.about2 h2 {
+    margin-top: 40px;
 }
 .about2 .box_Data {
     display: flex;
     flex-direction: row;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 .about2 .box_Data .data {
-    min-width: 150px
+    min-width: 150px;
+    font-size: 18px;
+}
+.about2 .box_Data .text {
+    font-size: 20px;
+}
+.text p {
+    font-size: 20px;
+    margin-top: 10px;
 }
 .box_TrattamentoDati{
     display: flex;
 }
 .trattamento_Dati {
-    margin-top: 21px;
+    margin-top: 40px;
 }
 
-@media (max-width:700px) {
+/* @media (max-width:700px) {
    .container {
     margin: 10px;
     grid-template-columns:repeat(1,1fr) ;
@@ -204,4 +245,4 @@ body {
     .box_about {
         width: 350px;
     }
-}
+} */
