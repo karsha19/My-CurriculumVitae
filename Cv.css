@@ -190,7 +190,7 @@ body {
     margin-top: 40px;
 }
 
-/* @media (max-width:700px) {
+@media (max-width:700px) {
    .container {
     margin: 10px;
     grid-template-columns:repeat(1,1fr) ;
@@ -245,4 +245,4 @@ body {
     .box_about {
         width: 350px;
     }
-} */
+}
