@@ -198,27 +198,28 @@ body {
 }
 @media  (max-width: 600px) {
     .introduction {
-        width: 350px;
+        width: 380px;
     }
     .container {
-        background: rgb(255, 255, 255);
         box-shadow: none;
         margin: 0px;
-        margin-right: 70px;
     }
     .container .right_Side {
         background: rgb(255, 255, 255);
     }
     .container .left_Side {
-        padding: 55px;
-        width: 420px;
-        background: rgb(200, 200, 200);
+        margin-bottom: 50px;
+        padding: 100px;
+        width: 520px;
+        background:rgb(255, 247, 233);
     }
     .box_Title {
         width: 370px;
+        align-items: center;
     }
     .about .box_Data {
         flex-direction: column;
+        margin-left: 50px;
     }
     .about .box_Data .text p {
         width: 200px;
@@ -231,6 +232,7 @@ body {
     }
     .about2 .box_Data {
         flex-direction: column;
+        margin-left: 50px;
     }
     .about2 .box_Data .text {
         margin-top: 10px;
